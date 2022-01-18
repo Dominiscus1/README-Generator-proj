@@ -17,12 +17,12 @@ const questions  = [
     {
       type: "input",
       name: "installation",
-      message: "What are the steps required to install your project?",
+      message: "How does someone install your project?",
     },
     {
       type: "input",
       name: "usage",
-      message: "Provide examples of how this application can be used?",
+      message: "How does the user use this application?",
     },
     {
       type: "input",
