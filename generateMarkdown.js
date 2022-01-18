@@ -35,7 +35,9 @@ function generateMarkdown(data) {
   - [Description](#Description)
   - [Installations](#Installations)
   - [Usage](#Usage)
-  - [Tests](#Tests)
+  - [Technologies](#Technologies)
+  - [Preview](#Preview)
+  - [Contributors](#Contributors)
   - [License](#License)
   - [Questions](#Questions)
   ## Description
@@ -47,16 +49,19 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Tests
-  ${data.tests}
-  
+  ## Technologies
+  ${data.tech}
+
+  ## Preview
+  ${data.preview}
+
+  ## Contributors
+  ${data.contributors}
+
   ## License
   [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
   </br>
   This application uses ${data.license} license. 
-  ## Questions 
-  If you have any questions or would like to contact me, you can [email](mailto:${data.email}) me
-  or check out my [GitHub](https://github.com/${data.github}).
 `;
 }
 

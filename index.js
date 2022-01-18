@@ -11,7 +11,7 @@ const questions  = [
     },
     {
       type: "input",
-      name: "desc",
+      name: "description",
       message: "Write a brief summary that explains the purpose and function of this project?",
     },
     {
@@ -36,17 +36,12 @@ const questions  = [
     },
     {
       type: "input",
-      name: "credit",
+      name: "contributors",
       message: "List the name of the contributors for this project.",
     },
     {
-      type: "input",
-      name: "launch",
-      message: "Enter the link that connects a user to your application",
-    },
-    {
       type: "list",
-      name: "licenses",
+      name: "license",
       message: "Choose the license that applies to your project",
       choices: ["MIT", "Apache",  "Mozilla", "No License"],
     },
