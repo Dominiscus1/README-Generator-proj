@@ -48,13 +48,14 @@ const questions  = [
       type: "list",
       name: "licenses",
       message: "Choose the license that applies to your project",
-      choices: ["MIT", "Apache", "Boost", "Mozilla", "GNU", "No License"],
+      choices: ["MIT", "Apache",  "Mozilla", "No License"],
     },
   ];
 
 // function to write README file
-function writeFile(fileName, data) {}
+function writeFile(fileName, data) {
   fs.writeFileSync(fileName, data);
+}
 // function to initialize app
 function init() {}
   inquirer.prompt(questions)
