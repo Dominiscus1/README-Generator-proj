@@ -8,7 +8,6 @@
   - [Preview](#Preview)
   - [Contributors](#Contributors)
   - [License](#License)
-  - [Questions](#Questions)
   ## Description
   Allows users to easily create readme.md files for their projects
   
