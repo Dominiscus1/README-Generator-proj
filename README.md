@@ -22,7 +22,7 @@
   node, javascript, inquirer
 
   ## Preview
-
+  ![Img](assets/preview.png)
 
   ## Contributors
   Anthony Jimenez
