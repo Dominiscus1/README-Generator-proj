@@ -1,5 +1,4 @@
-# ReadMe Generator
-[![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&?style=plastic&link=https://choosealicense.com/licenses/mit/)](https://choosealicense.com/licenses/mit/)
+# Note-Taker
   ## Table of Contents
   - [Description](#Description)
   - [Installations](#Installations)
@@ -10,24 +9,25 @@
   - [License](#License)
   - [Questions](#Questions)
   ## Description
-  Allows users to easily create readme.md files for their projects
+  Allows users to create notes that will be saved in local storage so they will reload when revisiting the page.
   
   ## Installations
-  npm i with inquirer in the dependencies
+  Use VsCode and gitbash. Use NPM init to create a package.json and npm i to install express and uuid when they are in the dependencies
 
   ## Usage
-  node index, then follow the prompts which will fill in their readme.
+  Users can create a title and note body, save them and they will persist upon closing the app.
 
   ## Technologies
-  node, javascript, inquirer
+  node, express, uuid, html, javascript
 
   ## Preview
+  N/A
 
-
+  ## Launch
+  https://arj-note-taker-project.herokuapp.com/
   ## Contributors
   Anthony Jimenez
 
   ## License
-  [![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&?style=plastic&link=https://choosealicense.com/licenses/mit/)](https://choosealicense.com/licenses/mit/)
+  This application uses No license. 
   </br>
-  This application uses MIT license. 
