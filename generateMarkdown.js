@@ -60,8 +60,8 @@ function generateMarkdown(data) {
 
   ## License
   [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
-  </br>
   This application uses ${data.license} license. 
+  </br>
 `;
 }
 
